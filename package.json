@@ -1,20 +1,20 @@
 {
-  "name": "nodejs_basic",
+  "name": "nodejs-complete-guide",
   "version": "1.0.0",
-  "description": "revising basic of nodejs",
+  "description": "Complete Node.js Guide",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SakshamPatro/nodejs_basic.git"
-  },
-  "author": "saksham patro",
+  "author": "Maximilian Schwarzmüller",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SakshamPatro/nodejs_basic/issues"
+  "devDependencies": {
+    "nodemon": "^1.18.3"
   },
-  "homepage": "https://github.com/SakshamPatro/nodejs_basic#readme"
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
 }
